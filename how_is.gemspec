@@ -1,4 +1,4 @@
-INQ_VERSION = 26
+INQ_VERSION = File.read("INQ_VERSION")
 
 Gem::Specification.new do |spec|
   spec.name          = "how_is"
